@@ -89,7 +89,7 @@ class CustomerTest {
                 "You earned 4 frequent renter points", statement);
     }
 
-//    @Test
+    @Test
     void should_return_statement_in_html_format() {
         customer.addRental(new Rental(new ChildrenMovie("Over the Hedge"), 5));
         customer.addRental(new Rental(new NewReleaseMovie("Toy Story"), 3));

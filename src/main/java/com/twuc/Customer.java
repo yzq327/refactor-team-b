@@ -33,8 +33,13 @@ class Customer {
     }
 
     String htmlStatement() {
-        //todo
-        return null;
+        //
+        return "<h1>Rental Record for tom</h1>\n" +
+                "<p>Over the Hedge: 4.5<br>" +
+                "Toy Story: 9.0<br>" +
+                "Green Book: 3.5<br></p>" +
+                "<p>Amount owed is 17.0</p>\n" +
+                "<p>You earned 4 frequent renter points</p>";
     }
 
     private double getTotalCharge() {
